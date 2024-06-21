@@ -4,6 +4,8 @@
 minikube addons enable ingress
 ```
 
+
+
 ```
 vi ingress-nginx-namespace.yaml
 ```
@@ -20,6 +22,8 @@ metadata:
 ```
 kubectl apply -f ingress-nginx-namespace.yaml
 ```
+
+
 
 ```
 vi custom-apache-deployment.yaml
