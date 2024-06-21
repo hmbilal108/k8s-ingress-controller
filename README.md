@@ -9,6 +9,8 @@ vi ingress-nginx-namespace.yaml
 ```
 
 ```
+#ingress-nginx-namespace.yaml
+
 apiVersion: v1
 kind: Namespace
 metadata:
